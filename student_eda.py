@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("student-por.csv", sep=';')
+df = pd.read_excel("student-performance.csv.xlsx")
 
 # -----------------------------
 # Basic Information
